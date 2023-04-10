@@ -10,10 +10,9 @@ required_providers {
         source = "hashicorp/google"
         version = "4.41.0"
         }
-    google-beta {
+    google-beta = {
         source = "hashicorp/google-beta"
         version = "4.41.0
     }
   }
-  
 }
