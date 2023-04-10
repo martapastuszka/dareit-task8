@@ -17,7 +17,7 @@ resource "google_storage_bucket" "static-site" {
     main_page_suffix = "index.html"
     not_found_page   = "404.html"
   }
-  
+
 
   cors {
     origin          = ["http://image-store.com"]
@@ -43,6 +43,7 @@ resource "google_compute_instance" "task8-vm" {
       }
     }
   }
+  
 
   network_interface {
     network = "default"
