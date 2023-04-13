@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../dareit-task-terraform"
+		},
+		{
+			"path": "../dareit-tasks"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
